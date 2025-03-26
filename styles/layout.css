@@ -1,0 +1,32 @@
+#app {
+	display: grid;
+	grid-template-columns: 1fr 2.5fr;
+	height: 100vh;
+	overflow: hidden;
+}
+
+aside {
+	background-image: url(../assets/background.png);
+	background-size: cover;
+	background-position: center;
+	padding: 2rem;
+}
+
+aside img {
+	height: 3rem;
+}
+
+aside h1 {
+	font: var(--text-logo);
+	color: var(--pink);
+	margin: 1rem 0 .25rem;
+}
+
+aside h2 {
+	font: var(--text);
+	color: var(--color-heading);
+}
+
+main {
+	overflow: auto;
+}

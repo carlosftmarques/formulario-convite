@@ -40,9 +40,9 @@
 	--text-heading-sm: 700 1.125rem var(--font-family-heading);
 
 	--font-family-body: "Open Sans", sans-serif;
-	--text: 500 1rem var(--font-family-body);
-	--text-sm: 500 .875rem var(--font-family-body);
-	--text-xs: 500 .75rem var(--font-family-body);
+	--text: 400 1rem var(--font-family-body);
+	--text-sm: 400 .875rem var(--font-family-body);
+	--text-xs: 400 .75rem var(--font-family-body);
 }
 
 body {
