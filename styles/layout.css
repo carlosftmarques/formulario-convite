@@ -28,5 +28,16 @@ aside h2 {
 }
 
 main {
+	display: grid;
+	justify-items: center;
 	overflow: auto;
+}
+
+main .main-container {
+	width: 100%;
+	max-width: 35rem;
+}
+
+main .main-container h1 {
+	margin: 5rem 0 0 0;
 }

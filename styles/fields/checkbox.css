@@ -1,0 +1,29 @@
+.checkbox-wrapper input + label {
+	font: var(--text-sm);
+	color: var(--color-body);
+}
+
+
+.checkbox-wrapper {
+	display: flex;
+	gap: .375rem;
+	position: relative;
+
+	& [type="checkbox"] {
+		position: absolute;
+		all: unset;
+		inset: 0;
+	}
+
+	.checkbox-image {
+		flex: 0 0 1.25rem;
+		height: 1.25rem;
+		background-image: url(../../assets/icons/checkbox-false.svg);
+	}
+
+	&:has(:checked) {
+		.checkbox-image {
+			background-image: url(../../assets/icons/checkbox-true.svg);
+		}
+	}
+}

@@ -1,0 +1,17 @@
+button {
+	all: unset;
+	display: flex;
+	align-items: center;
+	gap: .75rem;
+	padding: .5rem 1.25rem;
+	border-radius: .5rem;
+	background-color: var(--brand-dark);
+	cursor: pointer;
+	margin-left: auto;
+	font: var(--text);
+	color: var(--color-heading);
+}
+
+button img {
+	height: 1.25rem;
+}
