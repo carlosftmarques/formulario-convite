@@ -20,10 +20,14 @@ legend {
 	margin-bottom: 1.5rem;
 }
 
-/* fieldset que anterior é fieldset */
-fieldset + fieldset {
-	margin-top: 3rem;
+legend > img {
+	height: 1.5rem;
 }
+
+/* fieldset que anterior é fieldset */
+/* fieldset + fieldset {
+	margin-top: 3rem;
+} */
 
 .terms-wrapper {
 	display: grid;

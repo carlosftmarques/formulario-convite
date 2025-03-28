@@ -25,7 +25,53 @@
 
 				<form action="">
 					<fieldset class="about">
-						<legend>Sobre o evento</legend>
+						<legend>
+							<img src="assets/icons/calendar.svg" alt="">
+							Sobre o evento
+						</legend>
+
+						<div class="input-wrapper">
+							<label for="title">Título</label>
+							<input id="title" name="title" type="text" placeholder="Nome do evento">
+						</div>
+
+						<div class="flex">
+							<div class="input-wrapper flex-1">
+								<label for="start">Início</label>
+								<input id="start" name="start" type="datetime-local" placeholder="DD/MM/AAAA, --:--" required>
+							</div>
+							<div class="input-wrapper flex-1">
+								<label for="end">Fim</label>
+								<input id="end" name="end" type="datetime-local" placeholder="DD/MM/AAAA, --:--">
+							</div>
+						</div>
+
+						<div class="flex">
+							<div class="radio-wrapper flex-1">
+								<label for="type" class="full">Tipo</label>
+								<div class="radio-options">
+									<div class="radio-inner">
+										<img src="assets/icons/building-2.svg" alt="ícone offline">
+										<input type="radio" name="type" id="offline" value="offline">
+										<label for="offline">Presencial</label>
+									</div>
+									<div class="radio-inner">
+										<img src="assets/icons/video.svg" alt="ícone online">
+										<input type="radio" name="type" id="online" value="online">
+										<label for="online">Online</label>
+									</div>
+								</div>
+							</div>
+							<div class="input-wrapper flex-1">
+								<label for="place">Local</label>
+								<input id="place" name="place" type="text" placeholder="Link ou endereço">
+							</div>
+						</div>
+
+						<div class="textarea-wrapper">
+							<label for="description">Descrição</label>
+							<textarea id="description" name="description" cols="30" rows="5" placeholder="Escreva sobre os detalhes do evento"></textarea>
+						</div>
 					</fieldset>
 
 					<fieldset class="custom">

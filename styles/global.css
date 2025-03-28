@@ -92,10 +92,19 @@ hr {
 	flex: 2;
 }
 
+.full {
+  grid-column: 1 / -1;
+}
+
+
 .error {
 	color: var(--danger);
 	display: flex;
 	gap: .5rem;
 	margin-top: .5rem;
 	display: none;
+}
+
+.icon {
+	color: red;
 }

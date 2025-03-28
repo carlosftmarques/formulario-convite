@@ -1,0 +1,41 @@
+.radio-options {
+	display: grid;
+	/* número de colunas variado, o máximo possível dentro do minmax determinado */
+	grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+	gap: .25rem;
+	padding: .25rem;
+	border: 1px solid var(--input-stroke);
+	border-radius: .5rem;
+}
+
+.radio-inner > img {
+	height: 1rem;
+}
+
+.radio-inner > label {
+	margin: 0;
+}
+
+.radio-inner:has(:checked) {
+	background-color: var(--shape-hover);
+}
+
+.radio-inner {
+	display: flex;
+	gap: .25rem;
+	align-items: center;
+	justify-content: center;
+	padding: .6rem 1rem;
+	border: 1px solid var(--stroke-default);
+	border-radius: .5rem;
+	background-color: var(--shape-button);
+	position: relative;
+
+	& input,
+	& input:focus,
+	& input:hover {
+		all: unset;
+		position: absolute;
+		inset: 0;
+	}
+}
