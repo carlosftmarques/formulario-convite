@@ -71,3 +71,31 @@ a {
 	text-decoration: none;
 	color: var(--brand-light);
 }
+
+hr {
+	all: unset;
+	background-color: var(--input-stroke);
+	height: 1px;
+}
+
+.flex {
+	display: flex;
+	gap: 1rem;
+	justify-items: center;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.flex-2 {
+	flex: 2;
+}
+
+.error {
+	color: var(--danger);
+	display: flex;
+	gap: .5rem;
+	margin-top: .5rem;
+	display: none;
+}

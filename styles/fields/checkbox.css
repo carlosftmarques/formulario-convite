@@ -3,7 +3,6 @@
 	color: var(--color-body);
 }
 
-
 .checkbox-wrapper {
 	display: flex;
 	gap: .375rem;
